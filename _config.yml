@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: AlexProw
+title: Alex Prow
 
 # Your name to show in the footer
 author: Alejandro Ramírez
@@ -35,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/apdevlogo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -43,7 +43,6 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
-
 
 #####################################
 # --- Footer social media links --- #
@@ -61,21 +60,21 @@ social-network-links:
   #patreon: DeanAttali
   #youtube: "@daattali"
   #whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
+  #  medium: yourname
+  #  reddit: yourname or r/yoursubreddit
   linkedin: alexramirezreyes
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-  mastodon: https://mstdn.mx/@alexprow
+  #  xing: yourname
+  #  stackoverflow: "3943160/daattali"
+  #  snapchat: deanat78
+  #  instagram: deanat78
+  #  spotify: yourname
+  #  telephone: +14159998888
+  #  steam: deanat78
+  #  twitch: yourname
+  #  yelp: yourname
+  #  telegram: yourname
+  #  calendly: yourname
+  mastodon: mstdn.mx/@alexprow
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
@@ -274,16 +273,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -305,4 +302,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
