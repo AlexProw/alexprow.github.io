@@ -4,7 +4,7 @@ title: Contacto
 subtitle: contacto para ofertas laborales o proyectos freelance
 ---
 
-#WIP
+# WIP
 **Solo Markdown** 
 
 <h1>pruebas de html</h1>
