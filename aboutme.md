@@ -1,16 +1,13 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Acerca de mi
+subtitle: Un pequeño intro sobre mi
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hola soy, Alejandro Ramírez soy un Desarrollador mexicano con habilidades en Python y Javascript como lenguajes principales.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- He trabajado para varias empresas en desarrollo web y aplicaciones en la nube.
+- Tengo experiencia con herramientas como Docker, Kubernetes, Playwright etc.
+- He trabajado con multiples entornos de desarrollo con los sistemas operativos mas populares
 
-What else do you need?
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
