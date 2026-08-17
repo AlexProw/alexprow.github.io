@@ -8,13 +8,13 @@ body header, body main, body footer {
 }
 h1, h2 {
   margin-top: 0;
+  margin-bottom:0;
   padding-top: 5px;
-  padding-bottom: 5px;
   text-align: center;
-  /*background-color: #007BD7;*/
-  background-color: #8A96A5;
-  color: black;
-  border-radius: 4px
+  background-color: #007BD7;
+  /*background-color: #8A96A5;*/
+  color: #F0F0F0;
+  text-shadow: 1px 1px black;
 }
 
 #main-navigation ul {
@@ -28,4 +28,20 @@ h1, h2 {
 time {
   font-style: italic;
   font-weight: lighter;
+}
+section, header {
+  border: solid 2px black;
+  border-radius: 4px;
+  margin-top: 8px;
+  background-color: #007BD7;
+  box-shadow: 3px 3px 2px 2px #8A96A5;
+}
+section div{
+  border: solid 2px black;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #F0F0F0;
 }
