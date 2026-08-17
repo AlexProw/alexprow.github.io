@@ -1,0 +1,31 @@
+body {
+  background-color: #F0F0F0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body header, body main, body footer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1, h2 {
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  /*background-color: #007BD7;*/
+  background-color: #8A96A5;
+  color: black;
+  border-radius: 4px
+}
+
+#main-navigation ul {
+  text-align: center;
+}
+#main-navigation ul li{
+  display: inline-block;
+  text-align: center;
+}
+/*main*/ 
+time {
+  font-style: italic;
+  font-weight: lighter;
+}
