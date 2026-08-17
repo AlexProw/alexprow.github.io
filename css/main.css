@@ -38,6 +38,7 @@ section, header {
 }
 section div{
   border: solid 2px black;
+  border-radius: 4px;
   margin-left: 3px;
   margin-right: 3px;
   margin-bottom: 4px;
